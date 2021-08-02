@@ -114,42 +114,5 @@ Our commitment to Open Source can be found [here](https://vercel.com/oss).
 
 We're using Github Projects to keep track of issues in progress and todo's. Here is our [Board](https://github.com/vercel/commerce/projects/1)
 
-People actively working on this project: @okbel & @lfades.
+People actively working on this project: @vivek286.
 
-## Troubleshoot
-
-<details>
-<summary>I already own a BigCommerce store. What should I do?</summary>
-<br>
-First thing you do is: <b>set your environment variables</b>
-<br>
-<br>
-.env.local
-
-```sh
-BIGCOMMERCE_STOREFRONT_API_URL=<>
-BIGCOMMERCE_STOREFRONT_API_TOKEN=<>
-BIGCOMMERCE_STORE_API_URL=<>
-BIGCOMMERCE_STORE_API_TOKEN=<>
-BIGCOMMERCE_STORE_API_CLIENT_ID=<>
-BIGCOMMERCE_CHANNEL_ID=<>
-```
-
-If your project was started with a "Deploy with Vercel" button, you can use Vercel's CLI to retrieve these credentials.
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Link local instance with Vercel and Github accounts (creates .vercel file): `vercel link`
-3. Download your environment variables: `vercel env pull .env.local`
-
-Next, you're free to customize the starter. More updates coming soon. Stay tuned.
-
-</details>
-
-<details>
-<summary>BigCommerce shows a Coming Soon page and requests a Preview Code</summary>
-<br>
-After Email confirmation, Checkout should be manually enabled through BigCommerce platform. Look for "Review & test your store" section through BigCommerce's dashboard.
-<br>
-<br>
-BigCommerce team has been notified and they plan to add more details about this subject.
-</details>
